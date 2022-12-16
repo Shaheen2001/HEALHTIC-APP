@@ -26,11 +26,11 @@ class NavBarPation extends StatelessWidget {
           padding: EdgeInsets.zero,
           children: [
             UserAccountsDrawerHeader(
-                accountName: Text("Ibrahim majed"),
-                accountEmail: Text("Ibarhim@gimal.com"),
+                accountName: Text("Imani Majed"),
+                accountEmail: Text("Imani21@gmail.com"),
                 currentAccountPicture: CircleAvatar(
                 child: ClipOval(
-                  child: Image.asset("assert/image/as.jpg",width: 90,height: 90,fit: BoxFit.cover,),
+                  child: Image.network("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIjBSz-d0hcb98xSwwKHR-766HqSPUce2LlA&usqp=CAU",width: 90,height: 90,fit: BoxFit.cover,),
                 ),
 
                 ),
@@ -43,14 +43,14 @@ class NavBarPation extends StatelessWidget {
             ),
             ListTile(
               leading: Icon(Icons.manage_accounts_outlined,color:defultColor,),
-              title: Text("Manage nutritionist",style: TextStyle(color: defultColor ,),),
+              title: Text("Manage Nutritionist",style: TextStyle(color: defultColor ,),),
               onTap: (){
                 Navigator.push(context, MaterialPageRoute(builder: (context)=>Manage_Nutritionist_by_patient_screen()));
               },
             ),
             ListTile(
               leading: Icon(IconlyBroken.chat,color: defultColor,),
-              title: Text("chat with patient ",style: TextStyle(color: defultColor,)),
+              title: Text("Chat with patient ",style: TextStyle(color: defultColor,)),
               onTap: (){
                 Navigator.push(context, MaterialPageRoute(builder:(context)=>Chat_patient_screen()));
               },
@@ -72,14 +72,14 @@ class NavBarPation extends StatelessWidget {
             ),
             ListTile(
               leading: Icon(IconlyBroken.bookmark,color: defultColor,),
-              title: Text("View diet plan",style: TextStyle(color: defultColor,)),
+              title: Text("Track diet plan",style: TextStyle(color: defultColor,)),
               onTap: (){
                 Navigator.push(context,MaterialPageRoute(builder: (context)=>View_diet_plan()));
               },
             ),
             ListTile(
               leading: Icon(Icons.track_changes,color: defultColor,),
-              title: Text("Track diet plan",style: TextStyle(color: defultColor,)),
+              title: Text("View diet plan",style: TextStyle(color: defultColor,)),
               onTap: (){
                 Navigator.push(context,MaterialPageRoute(builder: (context)=>Track_diet_plan()));
               },

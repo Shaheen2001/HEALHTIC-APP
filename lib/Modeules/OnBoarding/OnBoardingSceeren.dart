@@ -75,7 +75,7 @@ bool IsShow=false;
                   SizedBox(height: 10.0,),
                   SvgPicture.asset('assert/image/logogApp.svg',height: 100,width: 100,),
                   SizedBox(height: 5.0,),
-                  Text("My Health",style: TextStyle(
+                  Text("MY HEALTH",style: TextStyle(
                     fontStyle: FontStyle.normal,
                     color: Colors.teal,
                     fontWeight: FontWeight.bold,

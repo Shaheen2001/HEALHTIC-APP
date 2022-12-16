@@ -36,7 +36,7 @@ class RegisterPatien extends StatelessWidget {
                         children: [
                           SvgPicture.asset('assert/image/logogApp.svg',height: 100,width: 100,),
                           SizedBox(height: 5.0,),
-                          Text("My Health",style: TextStyle(
+                          Text("My HEALTH",style: TextStyle(
                             fontStyle: FontStyle.normal,
                             color: Colors.teal,
                             fontWeight: FontWeight.bold,
@@ -238,6 +238,9 @@ class RegisterPatien extends StatelessWidget {
                               ),
                             ),*/
                             SizedBox(height: 15.0,),
+                            SizedBox(
+                              height: 20.0,
+                            ),
                             Container(
                               width: 150.0,
                               decoration: BoxDecoration(
@@ -258,7 +261,7 @@ class RegisterPatien extends StatelessWidget {
                                     });
                                   }},
                                 child: Text(
-                                  "Sign in",
+                                  "Sign up",
                                   style: TextStyle(
                                     color: Colors.white,
                                     fontWeight: FontWeight.w600,

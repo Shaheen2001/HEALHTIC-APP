@@ -30,10 +30,10 @@ class _HomeCreatScreenState extends State<HomeCreatScreen> {
                 //alignment: AlignmentDirectional.center,
                 // fit: StackFit.passthrough,
                 children: [
-                  SizedBox(height: 10.0,),
+                  SizedBox(height: 50.0,),
                   SvgPicture.asset('assert/image/logogApp.svg',height: 100,width: 100,),
                   SizedBox(height: 5.0,),
-                  Text("My Health",style: TextStyle(
+                  Text("MY HEALTH",style: TextStyle(
                     fontStyle: FontStyle.normal,
                     color: Colors.teal,
                     fontWeight: FontWeight.bold,
@@ -41,7 +41,7 @@ class _HomeCreatScreenState extends State<HomeCreatScreen> {
                   ),),
                 ],
               ),
-              SizedBox(height: 20.0,),
+              SizedBox(height: 5.0,),
               Column(
                // crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
@@ -55,7 +55,7 @@ class _HomeCreatScreenState extends State<HomeCreatScreen> {
 
                   ),),*/
                   SizedBox(height: 60.0,),
-                  Text("Welcome",
+                  Text("Are you ready to change",
                     style:
                     TextStyle(
                       color: defultColor.withOpacity(0.8),
@@ -64,7 +64,7 @@ class _HomeCreatScreenState extends State<HomeCreatScreen> {
                       fontSize: 25.0,
 
                     ),),
-                  //SizedBox(height: 60.0,),
+                  SizedBox(height: 20.0,),
                   Container(
                     width: 300.0,
                     height: 200.0,
@@ -79,7 +79,7 @@ class _HomeCreatScreenState extends State<HomeCreatScreen> {
                         SizedBox(height: 17.0,),
                         Container(
 
-                          width: 200.0,
+                          width: 220.0,
                           decoration:BoxDecoration(
                             border: Border.all(width: 1,color:Colors.transparent ),
                             borderRadius: BorderRadius.circular(40),
@@ -99,7 +99,7 @@ class _HomeCreatScreenState extends State<HomeCreatScreen> {
                                 });
                               },
                           child: Text(
-                              "Sigin in as patient! ",
+                              "Sign up as Patient ",
                             style: TextStyle(
                               color:  Colors.white,
                               fontSize: 16.0,
@@ -111,7 +111,7 @@ class _HomeCreatScreenState extends State<HomeCreatScreen> {
                         ),
                         SizedBox(height: 20.0,),
                         Container(
-                          width: 200.0,
+                          width: 220.0,
                           decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(25.0),
                             color: defultColor.withOpacity(.6),
@@ -136,7 +136,7 @@ class _HomeCreatScreenState extends State<HomeCreatScreen> {
                               });
                             },
                             child: Text(
-                              "Sigin in as Nutritionist!",
+                              "Sign up as Nutritionist",
                               style: TextStyle(
                                 color: Colors.white,
                                 fontSize: 16.0,

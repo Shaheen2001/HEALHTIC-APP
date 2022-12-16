@@ -1,16 +1,10 @@
-# hea_apps
+# health_app
 
 A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+I am currently working on my graduation project in flutter language and it ends on 1/1/2023.
+The project is a health application (healthy nutrition), the application aims to link the patient and the nutritionist in an easy and simple way, many advantages are available in the application by adding and booking appointments in clinics or remote meetings, and setting up weekly programs to follow up the patients, and many features can be View it in the application.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Important note: The application is under modification and will be completed soon. You can view the front end of the application.

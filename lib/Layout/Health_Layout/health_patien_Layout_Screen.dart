@@ -19,7 +19,7 @@ class healthLayout_patien extends StatelessWidget {
         leading: Builder(builder: (context)=>IconButton(onPressed: (){Scaffold.of(context).openDrawer();},icon: Icon(Icons.menu,color: defultColor),)),
         backgroundColor: Colors.white,
         elevation: 0.0,
-        title:  Text("Home paiont",style: TextStyle(color: defultColor),),
+        title:  Text("Home patient",style: TextStyle(color: defultColor),),
         actions: [
           IconButton(
               onPressed: (){

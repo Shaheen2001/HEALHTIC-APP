@@ -13,31 +13,49 @@ class AnimLogohApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return AnimatedSplashScreen(
-        splash: Column(
-          children: [
-            Stack(
-              alignment: AlignmentDirectional.center,
-              children: [
-                CircleAvatar(
-                  backgroundColor: Colors.white,
-                  radius: 50.0,
-                  child:Padding(
-                    padding: const EdgeInsets.all(8.0),
-                    child: SvgPicture.asset('assert/image/logogApp.svg'),
-                  ) ,
+        splash: Center(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              Stack(
+                alignment: AlignmentDirectional.center,
+                children: [
+                  CircleAvatar(
+                    backgroundColor: Colors.white,
+                    radius: 60.0,
+                    child:Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: SvgPicture.asset('assert/image/logogApp.svg'),
+                    ) ,
 
 
-                ),
-              ],
-            ),
-            SizedBox(height: 5.0,),
-            Text("My Health",style: TextStyle(
-              fontStyle: FontStyle.normal,
-              color: Colors.white,
-              fontWeight: FontWeight.bold,
-              fontSize: 25.0,
-            ),),
-          ],
+                  ),
+                ],
+              ),
+              SizedBox(height: 5.0,),
+              Text("My Health",style: TextStyle(
+                fontStyle: FontStyle.normal,
+                color: Colors.white,
+                fontWeight: FontWeight.bold,
+                fontSize: 45.0,
+              ),
+
+              ),
+              SizedBox(height: 7.0,),
+              Text("The groundwork of all happiness is health.",
+                style: TextStyle(
+                fontStyle: FontStyle.normal,
+                color: Colors.white,
+                fontWeight: FontWeight.bold,
+                fontSize:16.0,
+              ),
+
+              ),
+
+
+
+            ],
+          ),
         ),
         backgroundColor: defultColor,
         nextScreen:  FirstWidget!,

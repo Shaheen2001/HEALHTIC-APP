@@ -460,10 +460,13 @@ class _CreatprofilepatienState extends State<Creatprofilepatien> {
                               child: Row(
 
                                 children: [
+                                  SizedBox(
+                                    height: 20.0,
+                                  ),
                                   Align(
                                     //  alignment: AlignmentDirectional.topStart,
                                     child: Text(
-                                      'Your Birth Sex',
+                                      'Gender',
                                       style: Theme.of(context).textTheme.bodyText1!.copyWith(color:Color(0xff57646C), ),),
                                   ),
                                 ],
@@ -498,24 +501,15 @@ class _CreatprofilepatienState extends State<Creatprofilepatien> {
 
                                   ),
                                   Text("Female",style: TextStyle(color: CubitE.c=='Female'?Colors.teal:null ),),
-                                  Radio(
-                                    value: 'Undisclosed',
-                                    groupValue: CubitE.c,
-                                    onChanged: (dynamic value){
-                                      CubitE.ChangeRaiosCreatprofilepatien(value: value);
-                                    },
-                                    activeColor: Colors.teal,
-                                    toggleable: false,
-
-                                  ),
-                                  Text("Undisclosed",style: TextStyle(color: CubitE.c=='Undisclosed'?Colors.teal:null ),),
                                 ],
                               ),
                             ),
+                            SizedBox(height: 10.0,),
                             Padding(
                               padding: EdgeInsetsDirectional.fromSTEB(0, 0, 20, 0),
                               child: Row(
                                 children: [
+
                                   Container(
                                     padding: EdgeInsets.zero,
                                     decoration: BoxDecoration(
@@ -541,7 +535,7 @@ class _CreatprofilepatienState extends State<Creatprofilepatien> {
                                 ],
                               ),
                             ),
-                            SizedBox(height: 13.0,),
+                            SizedBox(height: 2.0,),
 
                            /* Row(
                               crossAxisAlignment: CrossAxisAlignment.start,
